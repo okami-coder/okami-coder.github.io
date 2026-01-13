@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohammed Agarraijou - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <img src="MED.jpeg" alt="Mohammed Agarraijou" class="nav-brand-img">
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Accueil</a></li>
+                <li><a href="#about" class="nav-link">À propos</a></li>
+                <li><a href="#skills" class="nav-link">Compétences</a></li>
+                <li><a href="#experience" class="nav-link">Expérience</a></li>
+                <li><a href="#education" class="nav-link">Formation</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="greeting">Bonjour, je suis</span>
+                    <span class="name">Mohammed Agarraijou</span>
+                </h1>
+                <p class="hero-subtitle">Développeur Informatique Passionné</p>
+                <p class="hero-description">
+                    Étudiant en deuxième année de Technicien Spécialisé en Développement Informatique, 
+                    passionné par la création de solutions innovantes et l'apprentissage continu.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Me Contacter</a>
+                    <a href="#about" class="btn btn-secondary">En savoir plus</a>
+                </div>
+                <div class="social-links">
+                    <a href="mailto:agarraijoumohammed@gmail.com" class="social-link" title="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="tel:+212687609358" class="social-link" title="Téléphone">
+                        <i class="fas fa-phone"></i>
+                    </a>
+                    <a href="https://github.com/okami-coder" target="_blank" rel="noopener noreferrer" class="social-link" title="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-image-wrapper">
+                    <img src="MED.jpeg" alt="Mohammed Agarraijou" class="profile-image">
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">À propos de moi</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        Je m'appelle <strong>Mohammed Agarraijou</strong>, j'ai 19 ans, et je suis passionné par le développement informatique. 
+                        Actuellement en deuxième année d'une formation en technicien spécialisé en Développement Informatique, 
+                        je cherche à approfondir mes connaissances et à développer mes compétences pratiques.
+                    </p>
+                    <p>
+                        Je suis convaincu que ma capacité à apprendre rapidement, mon sens du travail en équipe et mon goût 
+                        pour les défis techniques seront des atouts pour réussir dans le milieu professionnel.
+                    </p>
+                    <div class="info-grid">
+                        <div class="info-item">
+                            <i class="fas fa-birthday-cake"></i>
+                            <div>
+                                <h4>Âge</h4>
+                                <p>19 ans</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Localisation</h4>
+                                <p>Casablanca, Maroc</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <div>
+                                <h4>Formation</h4>
+                                <p>Technicien Spécialisé</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-interests">
+                    <h3>Centres d'Intérêt</h3>
+                    <div class="interests-grid">
+                        <div class="interest-item">
+                            <i class="fas fa-gamepad"></i>
+                            <span>Jeux vidéo</span>
+                        </div>
+                        <div class="interest-item">
+                            <i class="fas fa-code"></i>
+                            <span>Coding</span>
+                        </div>
+                        <div class="interest-item">
+                            <i class="fas fa-futbol"></i>
+                            <span>Football</span>
+                        </div>
+                        <div class="interest-item">
+                            <i class="fas fa-music"></i>
+                            <span>Musique</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Compétences Techniques</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <h3>HTML</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="85"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-css3-alt"></i>
+                    </div>
+                    <h3>CSS</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="80"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-js"></i>
+                    </div>
+                    <h3>JavaScript</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="75"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>MySQL</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="70"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h3>XAMPP</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="75"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">
+                        <i class="fab fa-microsoft"></i>
+                    </div>
+                    <h3>Suite Microsoft</h3>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-progress="80"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Languages Section -->
+    <section class="languages">
+        <div class="container">
+            <h2 class="section-title">Langues</h2>
+            <div class="languages-grid">
+                <div class="language-item">
+                    <i class="fas fa-language"></i>
+                    <h3>Arabe</h3>
+                    <p>Langue maternelle</p>
+                </div>
+                <div class="language-item">
+                    <i class="fas fa-language"></i>
+                    <h3>Français</h3>
+                    <p>Bien</p>
+                </div>
+                <div class="language-item">
+                    <i class="fas fa-language"></i>
+                    <h3>Anglais</h3>
+                    <p>Bien</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Expériences Professionnelles</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2025</div>
+                        <h3>Stage en Alternance</h3>
+                        <h4>Refood - Casablanca, Maroc</h4>
+                        <p>Stage pratique dans le développement informatique, mise en application des compétences acquises en formation.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2025</div>
+                        <h3>Formation Soft/Hard Skills</h3>
+                        <h4>Technopark - Casablanca, Maroc</h4>
+                        <p>Formation complémentaire en compétences comportementales et techniques pour le développement professionnel.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title">Formations</h2>
+            <div class="education-grid">
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="education-content">
+                        <h3>Technicien Spécialisé en Développement Informatique</h3>
+                        <h4>EFET - Casablanca, Maroc</h4>
+                        <p class="education-period">2024 - Présent</p>
+                        <p>Formation spécialisée en développement informatique, couvrant les technologies web, bases de données et développement d'applications.</p>
+                    </div>
+                </div>
+                <div class="education-card">
+                    <div class="education-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <div class="education-content">
+                        <h3>Baccalauréat en Sciences Physiques</h3>
+                        <h4>Nawras - Essaouira, Maroc</h4>
+                        <p class="education-period">2023 - 2024</p>
+                        <p>Diplôme de baccalauréat avec spécialisation en sciences physiques.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contactez-moi</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Restons en contact</h3>
+                    <p>N'hésitez pas à me contacter pour toute opportunité ou collaboration.</p>
+                    <div class="contact-items">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <a href="mailto:agarraijoumohammed@gmail.com">agarraijoumohammed@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Téléphone</h4>
+                                <a href="tel:+212687609358">+212-687-609-358</a>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Localisation</h4>
+                                <p>Casablanca, Maroc</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Votre nom" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Votre email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Sujet" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" rows="5" placeholder="Votre message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Envoyer le message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Mohammed Agarraijou. Tous droits réservés.</p>
+            <div class="footer-social">
+                <a href="mailto:agarraijoumohammed@gmail.com" class="footer-link">
+                    <i class="fas fa-envelope"></i>
+                </a>
+                <a href="tel:+212687609358" class="footer-link">
+                    <i class="fas fa-phone"></i>
+                </a>
+                <a href="https://github.com/okami-coder" target="_blank" rel="noopener noreferrer" class="footer-link" title="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
